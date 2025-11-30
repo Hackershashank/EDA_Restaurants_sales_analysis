@@ -37,8 +37,6 @@ The dataset contains restaurant transaction records with columns like:
 - Total Price  
 - Timestamp  
 
-> *(Dataset source can be added here if public)*
-
 ---
 
 ## 🛠️ Tools & Libraries Used
@@ -61,7 +59,6 @@ The dataset contains restaurant transaction records with columns like:
 - Category-wise revenue comparison
 - Univariate visualization
 - Histogram and bar chart distribution analysis
-
 ---
 
 ## 📁 Project Structure
@@ -71,29 +68,31 @@ EDA_restaurantSales/
 │── data/                   # Dataset (optional folder)
 │── EDA_restaurantSales.ipynb
 │── README.md
-▶️ How to Run the Notebook
-Clone the repository:
+```
 
-bash
-Copy code
+
+▶️ How to Run the Notebook
+
+Clone the repository:
+```bash
 git clone <repo-url>
 cd EDA_restaurantSales
+```
+
 Install dependencies:
-
-bash
-Copy code
+```bash
 pip install pandas numpy matplotlib seaborn
+```
+
 Run the notebook:
-
-bash
-Copy code
+```bash
 jupyter notebook EDA_restaurantSales.ipynb
+```
+
 📌 Future Scope
-Add predictive analytics (sales forecasting)
-
-Category-based recommendation system
-
-Dashboard using Power BI / Tableau / Streamlit
+1. Add predictive analytics (sales forecasting)
+2. Category-based recommendation system
+3. Dashboard using Power BI / Tableau / Streamlit
 
 📄 License
 This project is released for learning and analysis purposes. You may modify or extend it freely.
